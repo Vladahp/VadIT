@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+menu {
+    margin: 0;
+    padding: 1%;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #F0866C ;
+}
+
+
+.logo {
+    margin-right: 20%;
+    text-decoration: none;
+    font-family: 'Russo one';
+}
+.menu-pages {
+    text-align: right;
+}
+.menu-page {
+    display: inline;
+    margin-right: 8%;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+a:hover {
+    color: white;
+    transition: 0.3s;
+    
+}
+
+header {
+    padding-top: 20%;
+    padding-bottom: 19%;
+    text-align: center;
+    background-image: url("main.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.header-text {
+    color: #ffffff;
+    font-family: "Russo one", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 15% 0 15%;
+    padding: 1% 0 2% 0;
+    background-color: rgba(0, 0, 0, 0.324);
+}
+
+.buy-button {
+    background-color: #F0866C;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+    font-size: 14px;
+}
+.buy-button:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+}
+
+.services{
+    text-align: center;
+    
+}
+.services-text {
+    font-family: "Russo one";
+    font-weight: 200;
+    text-align: center;
+    margin: 10%;
+}
+.services-button {
+    background-color: black;
+    color:#ffffff;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+}
+.services-button:hover {
+    background-color: #ffffff;
+    color: black;
+    transition: 0.4s;
+}
+.servic {
+    background-color: #F0866C;
+    display: inline-block;
+    padding: 10%;
+    margin: 2%;
+}
+
+.about-us {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    text-align: center;
+    font-weight: 100;
+}
+
+.about-us-text {
+    font-family: "Russo one";
+    font-weight: 300;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.tips {
+    display: flex;
+    text-align: center;
+}
+.tip {
+    text-align: center;
+    background-color: #F0866C;
+    margin: 10%;
+    border-radius: 15px;
+    padding: 5%;
+}
+.footer-name {
+    font-family: "Russo one";
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer {
+    background-color: #F0866C;
+    margin-bottom: 0%;
+    padding: 5% 0 5% 0;
+    text-align: left;
+
+}
+.inst {
+    display: flex;
+}
+.inst-logo {
+    width: 8%;
+    height: 7%;
+    margin: 5% ;
+}
+.footer-text {
+    margin: 2%;
+}
+.footer-divs {
+    display: flex;
+    margin: 6%;
+}
+.form {
+    background-color: rgba(0, 0, 0, 0.173);
+    border-radius: 15px;
+    padding: 5%;
+    text-align: center;
+
+}
+
+label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    font-size: 15px ;
+    padding: 20%;
+}
+
+input {
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    
+}
